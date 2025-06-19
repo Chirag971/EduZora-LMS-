@@ -1,0 +1,59 @@
+﻿@model eduzora_lms.Models.Admin.ViewModels.EditSalesCommissionRequest
+
+@{
+    Layout = "_LayoutAdmin";
+}
+
+
+<div class="main-content">
+    <section class="section">
+        <div class="section-header d-flex justify-content-between">
+            <h1>Edit Sales Commission</h1>
+
+        </div>
+        <div class="section-body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form asp-controller="Settings" asp-action="SalesCommission" method="post">
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group mb-3">
+                                            <label>Sales Commission</label>
+                                            <input type="text" class="form-control" asp-for="SalesCommission">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary" name="form_submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Admin Commission</td>
+                                        <td>@(ViewBag.AdminCommission)%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Instructor Commission</td>
+                                        <td>@(ViewBag.InstructorCommission)%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

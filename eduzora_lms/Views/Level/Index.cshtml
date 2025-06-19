@@ -1,0 +1,76 @@
+﻿@model List<eduzora_lms.Models.Admin.Domain.Level>
+
+@{
+	Layout = "_LayoutAdmin";
+}
+
+<div class="main-content">
+	<section class="section">
+		<div class="section-header d-flex justify-content-between">
+			<h1>All Levels</h1>
+			<div class="ml-auto">
+				<a asp-controller="Level" asp-action="Add" class="btn btn-primary"><i class="fas fa-plus"></i> Add New</a>
+			</div>
+		</div>
+		<div class="section-body">
+			<div class="row">
+				<div class="col-12">
+					<div class="card">
+						<div class="card-body">
+							<div class="table-responsive">
+
+								@if (Model != null && Model.Any())
+								{
+
+									<table class="table table-bordered" id="example1">
+										<thead>
+											<tr>
+												<th>SL</th>
+												<th>Name</th>
+												<th>Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											@foreach (var level in Model)
+											{
+												<tr>
+													<td>@level.Id</td>
+													<td>@level.LevelName</td>
+													<td class="pt_10 pb_10">
+
+														<a asp-area="" asp-controller="Level" asp-action="Edit"
+														   asp-route-id="@level.Id"
+														   class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></a>
+
+														<form asp-controller="Level" asp-action="Delete" method="post" style="display:inline-block;">
+
+															<input type="hidden" name="id" value="@level.Id" />
+
+															<button class="btn btn-danger btn-sm" onClick="return confirm('Are you sure?');">
+																<i class="fas fa-trash"></i>
+															</button>
+
+														</form>
+
+													</td>
+												</tr>
+											}
+										</tbody>
+									</table>
+								}
+								else
+								{
+									<center>
+										<p>No Levels Found !</p>
+									</center>
+								}
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

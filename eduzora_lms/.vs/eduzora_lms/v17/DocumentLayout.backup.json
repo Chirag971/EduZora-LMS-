@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\eduzora_lms\\eduzora_lms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|e:\\eduzora_lms\\eduzora_lms\\controllers\\admin\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|solutionrelative:controllers\\admin\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|e:\\eduzora_lms\\eduzora_lms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|e:\\eduzora_lms\\eduzora_lms\\wwwroot\\video.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|solutionrelative:wwwroot\\video.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|e:\\eduzora_lms\\eduzora_lms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71386EC3-ED32-4DE5-8371-B5F417FC8110}|eduzora_lms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\eduzora_lms\\eduzora_lms\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\eduzora_lms\\eduzora_lms\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:22:17.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\eduzora_lms\\eduzora_lms\\Controllers\\Admin\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Admin\\CategoryController.cs",
+              "ToolTip": "E:\\eduzora_lms\\eduzora_lms\\Controllers\\Admin\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\Admin\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:56:40.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "video.txt",
+              "DocumentMoniker": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\video.txt",
+              "RelativeDocumentMoniker": "wwwroot\\video.txt",
+              "ToolTip": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\video.txt",
+              "RelativeToolTip": "wwwroot\\video.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-18T17:47:52.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\eduzora_lms\\eduzora_lms\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\eduzora_lms\\eduzora_lms\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-18T17:42:54.406Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

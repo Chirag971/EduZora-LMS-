@@ -1,0 +1,101 @@
+﻿
+@{
+    // Condition for the entire "Section" dropdown to be active/open
+    bool isSectionActive = (ViewBag.CurrentPage == "category-display" ||
+                                  ViewBag.CurrentPage == "category-add" ||
+                                  ViewBag.CurrentPage == "category-edit" ||
+                                  ViewBag.CurrentPage == "level-display" ||
+                                  ViewBag.CurrentPage == "level-add" ||
+                                  ViewBag.CurrentPage == "level-edit" ||
+                                  ViewBag.CurrentPage == "language-display" ||
+                                  ViewBag.CurrentPage == "language-add" ||
+                                  ViewBag.CurrentPage == "language-edit");
+
+
+    // Conditions for individual sub-items to be active
+    bool isCategoryActive = (ViewBag.CurrentPage == "category-display" ||
+                             ViewBag.CurrentPage == "category-add" ||
+                             ViewBag.CurrentPage == "category-edit");
+
+    bool isLevelActive = (ViewBag.CurrentPage == "level-display" ||
+                          ViewBag.CurrentPage == "level-add" ||
+                          ViewBag.CurrentPage == "level-edit");
+
+    bool isLanguageActive = (ViewBag.CurrentPage == "language-display" ||
+                            ViewBag.CurrentPage == "language-add" ||
+                            ViewBag.CurrentPage == "language-edit");
+
+    bool isSettingActive = (ViewBag.CurrentPage == "sales-commission");
+}
+
+<div class="main-sidebar">
+	<aside id="sidebar-wrapper">
+		<div class="sidebar-brand">
+			<a asp-area="" asp-controller="DashboardAdmin" asp-action="Index">Admin Panel</a>
+		</div>
+		<div class="sidebar-brand sidebar-brand-sm">
+			<a asp-area="" asp-controller="DashboardAdmin" asp-action="Index"></a>
+		</div>
+
+		<ul class="sidebar-menu">
+
+			<li class="@(ViewBag.CurrentPage == "dashboard-admin" ? "active" : "")">
+				<a class="nav-link" asp-controller="DashboardAdmin" asp-action="Index">
+					<i class="fas fa-hand-point-right"></i>
+					<span>Dashboard</span>
+				</a>
+			</li>
+
+
+            @* Drop Down Settings*@
+
+            <li class="nav-item dropdown @(isSettingActive ? "active" : "")">
+
+                <a href="#" class="nav-link has-dropdown @(isSettingActive ? "active" : "")">
+                    <i class="fas fa-folder"></i><span>Settings</span></a>
+
+                <ul class="dropdown-menu @(isSettingActive ? "show" : "")">
+                    <li class="@(isSettingActive ? "active" : "")">
+                        <a class="nav-link" asp-controller="Settings" asp-action="SalesCommission">
+                            <i class="fas fa-angle-right"></i> Sales Commission </a>
+                    </li>
+                </ul>
+            </li>
+
+            @* Drop Down Course Section *@
+
+            <li class="nav-item dropdown @(isSectionActive ? "active" : "")">
+
+                <a href="#" class="nav-link has-dropdown @(isSectionActive ? "active" : "")">
+                    <i class="fas fa-folder"></i><span>Course Section</span>
+                </a>
+
+                <ul class="dropdown-menu @(isSectionActive ? "show" : "")">
+                    <li class="@(isCategoryActive ? "active" : "")">
+                        <a class="nav-link" asp-controller="Category" asp-action="Index">
+                            <i class="fas fa-angle-right"></i> Category </a>
+                    </li>
+
+
+                    @* Level Sub-Menu Item *@
+                    <li class="@(isLevelActive ? "active" : "")">
+                        <a class="nav-link" asp-controller="Level" asp-action="Index">
+                            @* Direct link to Level Index (view) *@
+                            <i class="fas fa-angle-right"></i> Level
+                        </a>
+                    </li>
+
+                    @* Language Sub-Menu Item *@
+                    <li class="@(isLanguageActive ? "active" : "")">
+                        <a class="nav-link" asp-controller="Language" asp-action="Index">
+                            @* Direct link to Language Index (view) *@
+                            <i class="fas fa-angle-right"></i> Language
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+		</ul>
+	</aside>
+</div>

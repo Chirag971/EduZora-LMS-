@@ -1,0 +1,168 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+
+	<link rel="icon" type="image/png" href="~/uploads/favicon.png">
+
+	<title>Admin Panel</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="~/dist-admin/css/bootstrap.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/font_awesome_5_free.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/select2.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/bootstrap-tagsinput.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/duotone-dark.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/dataTables.bootstrap4.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/iziToast.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/fontawesome-iconpicker.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/bootstrap4-toggle.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/style.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/components.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/air-datepicker.min.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/spacing.css" asp-append-version="true">
+	<link rel="stylesheet" href="~/dist-admin/css/custom.css" asp-append-version="true">
+
+	@await RenderSectionAsync("Styles", required: false)
+
+</head>
+
+<body>
+	<div id="app">
+		<div class="main-wrapper">
+
+			@* _TopNavAdmin Start *@
+			@{
+				string photoPath = ViewBag.UserPhotoPath as string ?? "default.png"; // from the dashboard controller
+				string imageSrc = string.IsNullOrEmpty(photoPath)
+				? Url.Content("~/uploads/default.png")
+				: Url.Content($"~/uploads/{photoPath}");
+			}
+
+			<div class="navbar-bg"></div>
+			<nav class="navbar navbar-expand-lg main-navbar">
+				<form class="form-inline mr-auto">
+					<ul class="navbar-nav mr-3">
+						<li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+					</ul>
+				</form>
+				<ul class="navbar-nav navbar-right justify-content-end rightsidetop">
+					<li class="nav-link">
+						<a href="#" target="_blank" class="btn btn-warning">Front End</a>
+					</li>
+					@if (User.Identity!.IsAuthenticated)
+					{
+						<li class="nav-link">
+							Logged in As :  @User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Name)?.Value
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								@* Display User profile img *@
+								<img alt="User Default Img" src="@imageSrc" class="rounded-circle-custom">
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end">
+								<li><a class="dropdown-item" asp-controller="Account" asp-action="EditProfile"><i class="far fa-user"></i> Edit Profile</a></li>
+
+								<form asp-controller="Account" asp-action="LogOut" method="post" id="logoutForm">
+									<button type="submit" class="dropdown-item">
+										<i class="fas fa-sign-out-alt"></i> Logout
+									</button>
+								</form>
+
+							</ul>
+						</li>
+					}
+				</ul>
+			</nav>
+			@* _TopNavAdmin End*@
+
+			@* _SideBar Admin  Start *@
+
+			@await Html.PartialAsync("_SidebarAdmin")
+
+			@* _SideBar Admin  End*@
+
+			<div class="content-wrapper">
+				<section class="content">
+					<div class="container-fluid">
+						@RenderBody() @* This is where the content of Login.cshtml (and other views) will be injected *@
+					</div>
+				</section>
+			</div>
+
+		</div> @* Closes .main-wrapper *@
+	</div> @* Closes #app *@
+
+	<script src="~/dist-admin/js/jquery-3.7.0.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/popper.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/tooltip.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/jquery.nicescroll.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/moment.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/stisla.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/jscolor.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/bootstrap-tagsinput.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/select2.full.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/jquery.dataTables.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/dataTables.bootstrap4.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/iziToast.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/fontawesome-iconpicker.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/js/air-datepicker.min.js" asp-append-version="true"></script>
+	<script src="~/dist-admin/tinymce/tinymce.min.js" asp-append-version="true"></script>
+
+	<script src="~/dist-admin/js/custom.js"></script>
+	<script src="~/dist-admin/js/scripts.js"></script>
+
+	@await RenderSectionAsync("Scripts", required: false)
+
+	@if (TempData["success_message"] != null)
+	{
+		<script>
+			iziToast.success({
+			message: "@TempData["success_message"]",
+			color: 'green',
+			position: 'topRight'
+			});
+		</script>
+		TempData.Remove("success_message");
+	}
+
+	@if (TempData["error_message"] != null)
+	{
+		<script>
+			iziToast.error({
+			message: "@TempData["error_message"]",
+			color: 'red',
+			position: 'topRight'
+			});
+		</script>
+		TempData.Remove("error_message");
+	}
+
+	@* Added for single display toast msg *@
+	@if (TempData["error_msg_list"] is List<string> errorMessages && errorMessages.Any())
+	{
+		<script>
+			@foreach (var err_msg in errorMessages)
+			{
+				var jsError = err_msg.Replace("'", "\\''");
+				<text>
+							iziToast.error({
+							message: '@Html.Raw(jsError)',
+							color: 'red',
+							position: 'topRight'});
+				</text>
+			}
+		</script>
+		TempData.Remove("error_msg_list");
+	}
+
+
+</body>
+
+</html>

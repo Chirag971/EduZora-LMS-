@@ -1,0 +1,37 @@
+﻿@{
+
+}
+
+<ul class="list-group list-group-flush">
+	<li class="list-group-item @(ViewBag.CurrentPage == "student-dashboard" ? "active" : "")">
+		<a asp-controller="StudentDashboard" asp-action="Index">Dashboard</a>
+	</li>
+	<li class="list-group-item">
+		<a href="student-enrolled-courses.php">Enrolled Courses</a>
+	</li>
+	<li class="list-group-item">
+		<a href="student-order.php">Orders</a>
+	</li>
+	<li class="list-group-item">
+		<a href="student-wishlist.php">Wishlist</a>
+	</li>
+	<li class="list-group-item">
+		<a href="student-message.php">Message</a>
+	</li>
+	<li class="list-group-item">
+		<a href="student-review.php">Reviews</a>
+	</li>
+	<li class="list-group-item @(ViewBag.CurrentPage == "edit-profile" ? "active" : "")">
+		<a asp-controller="StudentDashboard" asp-action="EditProfile">Edit Profile</a>
+	</li>
+	<li class="list-group-item">
+		<form id="logoutForm" asp-controller="Account" asp-action="LogOut" method="post" class="d-none">
+			@* This generates the anti-forgery token, which is critical for security *@
+			@Html.AntiForgeryToken()
+		</form>
+
+		<a href="/Account/Login" onclick="document.getElementById('logoutForm').submit(); return false;" class="list-group-item-action">
+			Logout
+		</a>
+	</li>
+</ul>

@@ -1,0 +1,142 @@
+﻿@model eduzora_lms.Models.Instructor.ViewModels.EditCourseFeaturedVideoRequestViewModel
+
+@{
+	Layout = "_LayoutUser";
+}
+
+<div class="page-top" style="background-image: url('@Url.Content("~/uploads/banner.jpg")')">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Edit Course Featured Video</h2>
+				<div class="breadcrumb-container">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="~/">Home</a></li>
+						<li class="breadcrumb-item active">Edit Course Featured Video</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="page-content user-panel pt_70 pb_70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-12">
+				<div class="card">
+					@await Html.PartialAsync("_SidebarInstructor")
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-12">
+
+				<!-- buttons  -->
+				<ul class="nav-course-edit">
+					<li>
+						<a asp-action="EditCourseBasic" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Basic Information
+						</a>
+					</li>
+					<li>
+						<a asp-action="EditCourseFeaturedPhoto" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Featured Photo
+						</a>
+					</li>
+					<li>
+						<a asp-action="EditCourseFeaturedBanner" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Featured Banner
+						</a>
+					</li>
+					<li class="active">
+						<a asp-action="EditCourseFeaturedVideo" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Featured Video
+						</a>
+					</li>
+					<li>
+						<a href="#"> Curriculum </a>
+					</li>
+				</ul>
+
+				<form asp-controller="DisplayCourse" asp-action="EditCourseFeaturedVideo" method="post" enctype="multipart/form-data">
+
+					@* Edit Course Featured Video type  and Content*@
+					<input type="hidden" asp-for="CurrentFeaturedVideoType" />
+					<input type="hidden" asp-for="CurrentFeaturedVideoContent" />
+
+
+					<div class="row">
+						<div class="col-md-6">
+							<label>Existing Featured Video Type</label>
+							<div>@Model.CurrentFeaturedVideoType</div>
+
+							<label>Existing Featured Video</label>
+							<div class="video-container mt-2">
+								@if (Model.CurrentFeaturedVideoType == "youtube")
+								{
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/@Model.CurrentFeaturedVideoContent" frameborder="0" allowfullscreen></iframe>
+								}
+								else if (Model.CurrentFeaturedVideoType == "vimeo")
+								{
+									<iframe src="https://vimeo.com/@Model.CurrentFeaturedVideoContent" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+								}
+								else
+								{
+									<video width="560" height="315" controls>
+										<source src="~/@Model.CurrentFeaturedVideoContent" type="video/mp4" />
+									</video>
+								}
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="mb-3">
+								<label>Change Video Type *</label>
+								<select asp-for="FeaturedVideoType" class="form-select" id="featured_video_type">
+									<option value="">Select Video Type</option>
+									<option value="youtube">YouTube</option>
+									<option value="vimeo">Vimeo</option>
+									<option value="mp4">MP4</option>
+								</select>
+							</div>
+
+							<div class="mb-3" id="youtube" style="display:none;">
+								<label>Enter YouTube Video ID</label>
+								<input asp-for="FeaturedVideoContentYoutube" class="form-control" />
+							</div>
+
+							<div class="mb-3" id="vimeo" style="display:none;">
+								<label>Enter Vimeo Video ID</label>
+								<input asp-for="FeaturedVideoContentVimeo" class="form-control" />
+							</div>
+
+							<div class="mb-3" id="mp4" style="display:none;">
+								<label>Upload MP4 File</label>
+								<input asp-for="FeaturedVideoContentMP4File" type="file" class="form-control" />
+							</div>
+
+							<button type="submit" class="btn btn-primary">Update</button>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			$('#featured_video_type').on('change', function () {
+				$('#youtube, #vimeo, #mp4').hide();
+				const selected = $(this).val();
+				if (selected == 'youtube') $('#youtube').show();
+				else if (selected == 'vimeo') $('#vimeo').show();
+				else if (selected == 'mp4') $('#mp4').show();
+			});
+		});
+	</script>
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\eduzora_lms.props" />
+</Project>

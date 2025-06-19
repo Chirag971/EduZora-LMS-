@@ -1,0 +1,111 @@
+﻿@using eduzora_lms.Models.Instructor.ViewModels
+@model List<InstructorCoursesDisplayViewModel>
+
+
+@{
+    Layout = "_LayoutUser";
+    var sl = 1;
+}
+
+<div class="page-top" style="background-image: url('@Url.Content("~/uploads/banner.jpg")')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Courses</h2>
+                <div class="breadcrumb-container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="~/">Home</a></li>
+                        <li class="breadcrumb-item active">Courses</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content user-panel pt_70 pb_70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <div class="card">
+                    @await Html.PartialAsync("_SidebarInstructor")
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <div class="table-responsive">
+
+                    <table class="table table-bordered">
+                        @* Table heading *@
+                        <thead>
+                            <tr>
+                                <th>SL</th>
+                                <th>Featured Photo</th>
+                                <th>Title</th>
+                                <th>Price</th>
+                                <th>Status</th>
+                                <th class="w-150">Action</th>
+                            </tr>
+                        </thead>
+                        @* Table body *@
+                        <tbody>
+                            @if (!Model.Any())
+                            {
+                                <tr>
+                                    <td colspan="6" align="center" class="text-danger">No courses found</td>
+                                </tr>
+                            }
+                            else
+                            {
+
+                                foreach (var course in Model)
+                                {
+                                    <tr>
+                                        <td>@sl</td>
+                                        <td>
+                                            <img src="~/@course.FeaturedPhoto" alt="photo" class="w-150" />
+                                        </td>
+                                        <td>@course.Title</td>
+                                        <td>₹@course.Price</td>
+                                        <td>
+                                            @if (course.Status == "Pending")
+                                            {
+                                                <span class="badge bg-danger">Pending</span>
+                                            }
+                                            else if (course.Status == "In Review")
+                                            {
+                                                <span class="badge bg-warning">In Review</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-success">Active</span>
+                                            }
+                                        </td>
+                                            <td>
+                                                <a asp-controller="DisplayCourse" asp-action="EditCourseBasic" asp-route-id="@course.CourseId" class="btn btn-warning btn-sm">Edit</a>
+
+                                            <form asp-controller="DisplayCourse"
+                                                  asp-action="DeleteInstructorCourse"
+                                                  method="post"
+                                                  asp-route-id="@course.CourseId"
+                                                  style="display:inline-block;">
+
+                                                <input type="hidden" value="@course.CourseId" />
+
+
+                                                <button class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this course?');">
+                                                   Delete
+                                                </button>
+                                            </form>
+                                            </td>
+                                    </tr>
+                                    sl++;
+                                }
+                            }
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1529 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eduzora_lms.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eduzora_lms.jufab5y1dp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\air-datepicker.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\air-datepicker.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\bootstrap4-toggle.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\bootstrap4-toggle.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\components.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\components.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\custom-top.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\custom-top.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\custom.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\custom.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\duotone-dark.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\duotone-dark.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\font_awesome_5_free.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\font_awesome_5_free.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\fontawesome-iconpicker.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\fontawesome-iconpicker.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\fontawesome-iconpicker.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\fontawesome-iconpicker.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\iziToast.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\iziToast.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\loading.gif",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\loading.gif"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\select2.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\spacing.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\spacing.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\style.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\css\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\dist-admin\\css\\summernote-bs4.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\drawkit\\drawkit-full-stack-man-colour.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\drawkit\\drawkit-full-stack-man-colour.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\drawkit\\drawkit-mobile-article-colour.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\drawkit\\drawkit-mobile-article-colour.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\drawkit\\drawkit-nature-man-colour.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\drawkit\\drawkit-nature-man-colour.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\drawkit\\revenue-graph-colour.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\drawkit\\revenue-graph-colour.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\stisla-fill.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\stisla-fill.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\stisla-light.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\stisla-light.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\stisla-transparent.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\stisla-transparent.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\img\\stisla.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\img\\stisla.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\air-datepicker.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\air-datepicker.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\bootstrap4-toggle.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\bootstrap4-toggle.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\fontawesome-iconpicker.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\fontawesome-iconpicker.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\fontawesome-iconpicker.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\fontawesome-iconpicker.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\iziToast.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\iziToast.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\jquery-3.7.0.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\jquery-3.7.0.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\jscolor.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\jscolor.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\moment.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\moment.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\moment.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\scripts.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\stisla.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\stisla.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\summernote-bs4.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\summernote-bs4.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\dist-admin\\js\\tooltip.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\license.txt"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\toc\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\toc\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\themes\\mobile\\theme.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\themes\\mobile\\theme.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\dist-admin\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-admin\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\dist-admin\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\all.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\all.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\animate.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\dist-front\\css\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\iziToast.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\iziToast.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\meanmenu.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\select2-bootstrap.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\select2-bootstrap.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\select2-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\select2-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\select2.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\spacing.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\spacing.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\css\\style.css",
+      "PackagePath": "staticwebassets\\dist-front\\css\\style.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\counterup.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\counterup.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\custom.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\iziToast.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\iziToast.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\jquery.meanmenu.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\jquery.meanmenu.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\moment.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\multi-countdown.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\multi-countdown.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\select2.full.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\js\\wow.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\license.txt"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\toc\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\toc\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\themes\\mobile\\theme.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\themes\\mobile\\theme.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\dist-front\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\dist-front\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\dist-front\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\.net banner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\.net banner.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\161a290c-54fd-4488-ab4a-41b6d0a2cf14_c97fe113-b731-4a1d-8061-c7a3ad71dba8_admin123.jpg",
+      "PackagePath": "staticwebassets\\uploads\\161a290c-54fd-4488-ab4a-41b6d0a2cf14_c97fe113-b731-4a1d-8061-c7a3ad71dba8_admin123.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\1746894946.png",
+      "PackagePath": "staticwebassets\\uploads\\1746894946.png"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\about.jpg",
+      "PackagePath": "staticwebassets\\uploads\\about.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\banner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banner.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\c97fe113-b731-4a1d-8061-c7a3ad71dba8_admin123.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c97fe113-b731-4a1d-8061-c7a3ad71dba8_admin123.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-1.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-2.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-3.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-4.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-1.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-2.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-3.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-4.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-5.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-6.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-7.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-8.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\course-thumb-9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\course-thumb-9.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\banners\\3f2aa6c1-85c9-4346-b9d9-617ccc9f4259_course-thumb-9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\banners\\3f2aa6c1-85c9-4346-b9d9-617ccc9f4259_course-thumb-9.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\banners\\9d6a52ab-7b28-49e4-bf1b-afd1d995b5fd_flutter_banner.png",
+      "PackagePath": "staticwebassets\\uploads\\courses\\banners\\9d6a52ab-7b28-49e4-bf1b-afd1d995b5fd_flutter_banner.png"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\banners\\bf9cfa4e-7d7b-47ee-bb01-e68b50b7074d_web-3-banner.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\banners\\bf9cfa4e-7d7b-47ee-bb01-e68b50b7074d_web-3-banner.jpeg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\banners\\eae1a99c-2266-43aa-935a-2c05b93c61c8_.net banner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\banners\\eae1a99c-2266-43aa-935a-2c05b93c61c8_.net banner.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\photos\\.net core.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\photos\\.net core.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\photos\\08c69d1e-e361-4c44-854f-52e5c344e492_Flutter-Development-Course.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\photos\\08c69d1e-e361-4c44-854f-52e5c344e492_Flutter-Development-Course.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\photos\\60764d05-50e4-4b20-b2de-c21780ab995f_web-3-photo.png",
+      "PackagePath": "staticwebassets\\uploads\\courses\\photos\\60764d05-50e4-4b20-b2de-c21780ab995f_web-3-photo.png"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\photos\\6f465563-cd9a-439f-8b9e-274867aaacb3_course-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\photos\\6f465563-cd9a-439f-8b9e-274867aaacb3_course-thumb-1.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\photos\\bb4f7e5c-9a5d-4da4-ac63-35e7579290d0_.net core.jpg",
+      "PackagePath": "staticwebassets\\uploads\\courses\\photos\\bb4f7e5c-9a5d-4da4-ac63-35e7579290d0_.net core.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\videos\\1743de46-e197-46f8-871a-1f9a8ce364d1_sample.mp4",
+      "PackagePath": "staticwebassets\\uploads\\courses\\videos\\1743de46-e197-46f8-871a-1f9a8ce364d1_sample.mp4"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\courses\\videos\\5b69ce9a-aba5-4bf5-8762-9d25f6abe0f5_sample.mp4",
+      "PackagePath": "staticwebassets\\uploads\\courses\\videos\\5b69ce9a-aba5-4bf5-8762-9d25f6abe0f5_sample.mp4"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\d2f793e0-2c5d-4522-8f2d-ef4a56fca8b8_instructor_img.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d2f793e0-2c5d-4522-8f2d-ef4a56fca8b8_instructor_img.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\default.png",
+      "PackagePath": "staticwebassets\\uploads\\default.png"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\f7b0688a-3fd9-45ef-86f2-4ea57bd053c8_img.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\f7b0688a-3fd9-45ef-86f2-4ea57bd053c8_img.jpeg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\favicon.png",
+      "PackagePath": "staticwebassets\\uploads\\favicon.png"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\instructor-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\instructor-1.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\instructor-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\instructor-2.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\instructor-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\instructor-3.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\instructor-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\instructor-4.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\loading.gif",
+      "PackagePath": "staticwebassets\\uploads\\loading.gif"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\logo.png",
+      "PackagePath": "staticwebassets\\uploads\\logo.png"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\post-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\post-1.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\post-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\post-2.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\post-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\post-3.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\post-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\post-4.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\sample.mp4",
+      "PackagePath": "staticwebassets\\uploads\\sample.mp4"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\slide-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\slide-1.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\student_1747558050.jpg",
+      "PackagePath": "staticwebassets\\uploads\\student_1747558050.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\t1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\t1.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\t2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\t2.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\t3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\t3.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\testimonial-bg.jpg",
+      "PackagePath": "staticwebassets\\uploads\\testimonial-bg.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\user-photo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\user-photo.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\user.jpg",
+      "PackagePath": "staticwebassets\\uploads\\user.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\uploads\\why-choose-bg.jpg",
+      "PackagePath": "staticwebassets\\uploads\\why-choose-bg.jpg"
+    },
+    {
+      "Id": "E:\\eduzora_lms\\eduzora_lms\\wwwroot\\video.txt",
+      "PackagePath": "staticwebassets\\video.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.eduzora_lms.props",
+      "PackagePath": "build\\eduzora_lms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eduzora_lms.props",
+      "PackagePath": "buildMultiTargeting\\eduzora_lms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eduzora_lms.props",
+      "PackagePath": "buildTransitive\\eduzora_lms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eduzora_lms.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eduzora_lms.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

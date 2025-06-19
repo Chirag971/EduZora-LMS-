@@ -1,0 +1,153 @@
+﻿@model eduzora_lms.Models.Instructor.ViewModels.EditCourseBasicRequestViewModel
+
+
+@{
+	Layout = "_LayoutUser";
+}
+
+<div class="page-top" style="background-image: url('@Url.Content("~/uploads/banner.jpg")')">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Edit Course Basic Info</h2>
+				<div class="breadcrumb-container">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="~/">Home</a></li>
+						<li class="breadcrumb-item active">Edit Course Basic Info</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="page-content user-panel pt_70 pb_70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-12">
+				<div class="card">
+					@await Html.PartialAsync("_SidebarInstructor")
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-12">
+
+				<!-- buttons  -->
+				<ul class="nav-course-edit">
+					<li class="active">
+						<a asp-action="EditCourseBasic" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Basic Information
+						</a>
+					</li>
+					<li>
+						<a asp-action="EditCourseFeaturedPhoto" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Featured Photo
+						</a>
+					</li>
+					<li>
+						<a asp-action="EditCourseFeaturedBanner" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Featured Banner
+						</a>
+					</li>
+					<li>
+						<a asp-action="EditCourseFeaturedVideo" asp-controller="DisplayCourse" asp-route-id="@Model.Id">
+							Featured Video
+						</a>
+					</li>
+					<li>
+						<a href="#"> Curriculum </a>
+					</li>
+				</ul>
+
+				<form asp-controller="DisplayCourse" asp-action="EditCourseBasic" method="post">
+					<div class="row">
+
+						@* get current cours edit req id *@
+						<input type="text" class="form-control" asp-for="Id" hidden>
+
+
+
+						<div class="col-md-12 mb-3">
+							<label for="">Title *</label>
+							<div class="form-group">
+								<input type="text" class="form-control" asp-for="Title">
+								<span asp-validation-for="Title" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-12 mb-3">
+							<label for="">Slug *</label>
+							<div class="form-group">
+								<input type="text" class="form-control" asp-for="Slug">
+								<span asp-validation-for="Slug" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-6 mb-3">
+							<label for="">Price *</label>
+							<div class="form-group">
+								<input type="text" class="form-control" asp-for="Price">
+								<span asp-validation-for="Price" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-6 mb-3">
+							<label for="">Old Price</label>
+							<div class="form-group">
+								<input type="text" class="form-control" asp-for="PriceOld">
+								<span asp-validation-for="PriceOld" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<label for="">Select Category *</label>
+							<div class="form-group">
+								<select class="form-select" asp-for="Category_id" asp-items="Model.Categories">
+
+									<option value="">Select Category</option>
+
+								</select>
+								<span asp-validation-for="Category_id" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<label for="">Select Level *</label>
+							<div class="form-group">
+								<select class="form-select" asp-for="Level_id" asp-items="Model.Levels">
+
+									<option value="">Select Level</option>
+
+								</select>
+								<span asp-validation-for="Level_id" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<label for="">Select Language *</label>
+							<div class="form-group">
+								<select class="form-select" asp-for="Language_id" asp-items="Model.Languages">
+
+									<option value="">Select Language</option>
+
+								</select>
+								<span asp-validation-for="Language_id" class="text-danger"></span>
+							</div>
+						</div>
+						<div class="col-md-12 mb-3">
+							<label for="">Description *</label>
+							<div class="form-group">
+								<textarea class="form-control editor" asp-for="Description">
+
+								</textarea>
+								<span asp-validation-for="Description" class="text-danger"></span>
+
+							</div>
+						</div>
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="submit" class="btn btn-primary" value="Update">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,160 @@
+﻿@using eduzora_lms.Models.Student.ViewModels
+@model StudentEditProfileViewModel
+
+@{
+	Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+<div class="page-top" style="background-image: url('@Url.Content("~/uploads/banner.jpg")')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Profile</h2>
+                <div class="breadcrumb-container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="~/">Home</a></li>
+                        <li class="breadcrumb-item active">Profile</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="page-content user-panel pt_70 pb_70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <div class="card">
+
+                    @await Html.PartialAsync("_SidebarUser")
+
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12">
+                <!-- Form Context of Edit Profile page  -->
+                <form asp-controller="StudentDashboard" asp-action="EditProfile" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label for="">Existing Photo</label>
+                            <div class="form-group">
+                               @* Display Current User Photo *@
+                               @{
+                                    string photoPath = Model?.PhotoPath!;
+
+                                    string imageSrc = string.IsNullOrEmpty(photoPath)
+                                    ? Url.Content("~/uploads/default.png")
+                                    : Url.Content($"~/uploads/{photoPath}");
+
+                                }
+
+                                <img src="@imageSrc" alt="Profile-Photo" class="user-photo">
+
+                                @* <input type="file" class="form-control-file mt-2" asp-for="UserPhoto"> *@
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="">Change Photo</label>
+                            <div class="form-group">
+
+                                <input type="file" asp-for="UserPhoto">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Full Name *</label>
+                            <div class="form-group">
+                                
+                                <input type="text" class="form-control" asp-for="FullName">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Email Address *</label>
+                            <div class="form-group">
+                                
+                                <input type="text" class="form-control" asp-for="Email">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Phone *</label>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" asp-for="Phone">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Address *</label>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" asp-for="Address">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Country *</label>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" asp-for="Country">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">State *</label>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" asp-for="State">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">City *</label>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" asp-for="City">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Zip Code *</label>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" asp-for="Zipcode">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Password</label>
+                            <div class="form-group">
+
+                                <input type="password" class="form-control" asp-for="Password">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Confirm Password</label>
+                            <div class="form-group">
+
+                                <input type="password" class="form-control" asp-for="ConfirmPassword">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input name="form_update" type="submit" class="btn btn-primary" value="Update">
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

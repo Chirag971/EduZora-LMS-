@@ -1,0 +1,65 @@
+﻿@using eduzora_lms.Models.Admin.ViewModels
+@model EditProfileViewModel
+
+@{
+	Layout = "_LayoutAdmin";
+}
+
+<div class="main-content">
+    <section class="section">
+        <div class="section-header">
+            <h1>Edit Profile</h1>
+        </div>
+        <div class="section-body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            
+                            <form asp-controller="Account" asp-action="EditProfile" method="post" enctype="multipart/form-data">
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        @* Display current profile photo based on Model data *@
+                                        @{
+                                            string photoPath = Model?.PhotoPath; // Assuming PhotoPath property in your Model
+                                            string imageSrc = string.IsNullOrEmpty(photoPath)
+                                            ? Url.Content("~/uploads/default.png")
+                                            : Url.Content($"~/uploads/{photoPath}");
+                                        }
+                                        <img src="@imageSrc" alt="Profile Photo" class="profile-photo w_100_p">
+
+                                        <input type="file" class="form-control-file mt-2" asp-for="UserPhoto">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="mb-4">
+                                            <label class="form-label">Name *</label>
+                                            @* Using asp-for for model binding *@
+                                            <input type="text" class="form-control" asp-for="FullName">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="form-label">Email *</label>
+                                            <input type="text" class="form-control" asp-for="Email">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="form-label">Password</label>
+                                            <input type="password" class="form-control" asp-for="Password">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="form-label">Retype Password</label>
+                                            <input type="password" class="form-control" asp-for="RetypePassword">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="form-label"></label>
+                                            <button type="submit" class="btn btn-primary" name="form_update">Update</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
